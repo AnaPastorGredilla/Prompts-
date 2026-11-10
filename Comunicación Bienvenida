@@ -1,0 +1,72 @@
+→ Prompt inicial 
+
+  Imagina que eres el manager de un equipo de CSM con una trayectoria profesional de más de 10 años en Startups SaaS españolas y debes montar un playbook para el equipo de CSM para facilitar, simplificar y hacer que todas las comunicaciones de tu equipo sean coherentes a la misión, personalidad y visión de la empresa, sin que los trabajadores del departamento pierdan su esencia y personalidad en dichas comunicaciones. 
+  El objetivo de la comunicación es dar la bienvenida al cliente al proceso de la empresa trás la adquisición de la licencia. 
+  A tener en cuenta que habrá una reunión para la presentación entre el CSM que gestione su cuenta y ellos con el objetivo de conocerse, conocer su objetivo como clientes de la empresa y sobre todo darles la bienvenida para comenzar con la relación que se busca entre un CSM y un cliente de confianza y respeto.
+
+→ Respuesta 1 Claude y errores en el prompt 
+
+   - La respuesta generada solicita más información sobre detalles no aportados en el prompt inicial como la misión de la empresa, el tono que debe tener la comunicación o el tipo de personalidad. Además se ha centrado en la descripción del playbook mencionado en lugar de unicamente generar la plantilla.   
+      Si ha generado la plantilla solicitada, aunque al generar el playbook ha generado más de una y aunque si ha sido una plantilla, no se ha obtenido el resultado esperado. 
+      Ej plantilla sugerida: 
+        "Hola [Nombre]:
+          Soy [tu nombre] y desde hoy voy a acompañaros en [Empresa]. Mi papel es sencillo: que consigáis lo que buscabais cuando decidisteis trabajar con nosotros.
+          [ZONA PERSONAL: una o dos frases sobre ti o sobre ellos, escritas de cero]
+          Lo siguiente es conocernos. Te propongo una reunión de 30-45 minutos para:
+          Conocernos y presentaros a vuestro equipo de [Empresa]
+          Entender qué queréis conseguir y cómo sabremos que va bien
+          Acordar los primeros pasos
+          Puedes elegir hueco aquí: [enlace agenda]. Si prefieres otra fecha, respóndeme y lo cuadramos.
+          Si quieres que venga alguien más de tu equipo, ¡perfecto! Cuantas más miradas, mejor.
+          Un saludo,
+          [Firma común]"
+  - Al buscar que el resultado fuera una plantilla no debería haber mención al playbook y si debe tener detalle sobre el tono, la misión de la empresa, el producto desarrollado y sobre la personalidad que se quiere dar a las comunicaciones. 
+
+→ Prompt 2
+
+  Aunque es un buen punto de partida inicial, me gustaría matizar algunos puntos. 
+  Unicamente necesito una plantilla en estos momentos. No te preocupes por la parte descrita de respetar la zona personal de cada CSM, mejor crear una plantilla completa. 
+  La comunicación con el cliente debe ser siempre cercana y amigable aunque respetuosa, trato cercano (siempre de "tú"). 
+  La empresa es Orbita, plataforma SaaS de gestión de operaciones e incidencias. La misión es simplificar la gestión de clientes de nuestros clientes y la visión es ser innovadores, cercanos y garantizar datos para poder mejorar la retención y la relación con los clientes de las empresas que contraten Orbita. 
+  Creo que con esta información puedes dar forma a una plantilla más específica. 
+  Aprovecho a concretar que la reunión inicial de bienvenida se llama Kick Off.
+
+→ Respuesta 2 Claude y errores en el prompt: 
+
+  - En esta ocasión si ha generado lo requerido, una plantilla, aunque es una plantilla bastante extensa, el tono es el buscado y las palabras escogidas son naturales y cercanas. 
+    Plantilla sugerida: 
+    " Hola [Nombre]:
+        ¡Qué alegría tenerte con nosotros! Soy [Tu nombre], tu Customer Success Manager en Orbita, y desde hoy seré tu persona de referencia para todo lo que necesites. 
+        En Orbita nos mueve una idea sencilla: que gestionar a tus clientes sea más fácil. Queremos que en [Empresa cliente] tengáis vuestras operaciones e incidencias bajo control y, sobre todo, datos claros para cuidar la relación con vuestros clientes y mejorar su retención.
+        Para empezar con buen pie, me encantaría conocerte en nuestro Kick Off, una videollamada de unos 45 minutos en la que:
+          Nos presentaremos y te contaré cómo vamos a trabajar juntos.
+          Me contarás qué quieres conseguir con Orbita y cómo sabremos que lo estamos logrando.
+          Acordaremos los primeros pasos, con fechas concretas.
+        Puedes reservar el hueco que mejor te venga aquí: [enlace a la agenda]. Si ninguno te encaja, respóndeme a este email y lo buscamos juntos.
+        Si alguien más de tu equipo va a trabajar con Orbita en el día a día, puedes añadirle a la invitación: cuanto mejor conozcamos cómo trabajáis, mejor podremos ayudaros.
+        Y una pregunta para ir pensando, sin necesidad de preparar nada más: si dentro de seis meses Orbita ha funcionado como esperabas, ¿qué habrá cambiado en tu día a día y en la relación con tus clientes?
+        Mientras tanto, si te surge cualquier duda, escríbeme a [email] o llámame al [teléfono].
+        ¡Nos vemos muy pronto!
+        Un saludo,
+        Firma"
+  - El resultado sería mucho más optimo al indicar la longitud del texto deseado. Para mejorar todavía más la plantilla, proponer en el prompt retirar la pregunta de los seis meses vista. 
+
+→ Prompt final
+
+  Este email es mucho más cercano a lo buscado, un pequeño detalle más y lo tendremos. Manteniendo el estilo, el lenguaje, la cercanía y la estructura sería genial acortar el email para aumentar la retención de la cuenta y la facilidad de lectura de dicha comunicación. 
+  Además de eliminar la úntima pregunta ya que esta genial pero ese tipo de preguntas es preferible realizarlas durante la reunión. 
+
+→ Plantilla email bienvenida finalizada
+
+  "Hola [Nombre]:
+    ¡Qué alegría tenerte con nosotros! Soy [Tu nombre], tu Customer Success Manager en Orbita, y desde hoy seré tu persona de referencia.
+    Nuestro objetivo es que gestionar a tus clientes sea más fácil: operaciones e incidencias bajo control y datos claros para mejorar su retención.
+    Para empezar con buen pie, me encantaría conocerte en nuestro Kick Off, una videollamada de unos 45 minutos en la que:
+      Nos presentaremos y te contaré cómo trabajaremos juntos.
+      Me contarás qué quieres conseguir con Orbita.
+      Acordaremos los primeros pasos.
+      Reserva el hueco que mejor te venga aquí: [enlace a la agenda]. Si quieres que se sume alguien más de tu equipo, ¡genial!
+    Para cualquier duda, escríbeme a [email] o llámame al [teléfono].
+    ¡Nos vemos muy pronto!
+    Un saludo,
+    Firma"
