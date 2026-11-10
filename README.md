@@ -36,7 +36,7 @@
   1. Versión simple de un primer prompt utilizando un cliente de prueba con un caso preciso.
   2. Corrección de el resultado con los distintos prompts complementarios para llegar a la versión definitiva.
   3. identificación del fallo inicial y replica en los distintos mensajes.
-  4. Generación del asistente mediante artefactos de Claude e introducción de información necesaria para que el asistente pueda generar el aporte necesario.
+  4. Generación del asistente mediante SKILLS de Claude e introducción de información necesaria para que el asistente pueda generar el aporte necesario.
 
 → Progreso
 
